@@ -1,0 +1,9 @@
+Fron Started folder:
+
+/home/khaled/Udacity/ObjectDetectionInAnUrbanEnvironment/Khaled/nd013-c1-vision-refresh-project/starter
+
+docker run -v /home/khaled/Udacity/ObjectDetectionInAnUrbanEnvironment/Khaled/nd013-c1-vision-refresh-project/starter:/app/project/ -ti project-dev bash
+
+
+
+
