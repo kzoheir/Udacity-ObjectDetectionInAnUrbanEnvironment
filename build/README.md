@@ -16,7 +16,10 @@ Create a container with:
 docker run -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ -ti project-dev bash
 ```
 and any other flag you find useful to your system (eg, `--shm-size`).
-
+**NOTE:** I needed to add the follwoing to flags in order to make ```Ray``` working:``` --network host --shm-size=256m```
+```
+nd013-c1-vision-refresh-project/starter:/app/project/ --network host --shm-size=256m -ti project-dev bash
+```
 ## Set up
 
 Once in container, you will need to install gsutil, which you can easily do by running:
