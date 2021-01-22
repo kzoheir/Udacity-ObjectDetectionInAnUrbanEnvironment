@@ -68,7 +68,7 @@ python download_process.py --data_dir /home/workspace/data/ --temp_dir /home/bac
 You are downloading XX files so be patient! Once the script is done, you can look inside the `/home/workspace/data/processed` folder to see if the files have been downloaded and processed correctly.
 
 **Note:** You can access the `/home/workspace/data/processed` in several ways. Some will not work (i fyou are new - like myself- to docker:
-* File system outside ```Docker``` don't work directly. There is no ````/home/workspace/``` folder
+* File system outside ```Docker``` don't work directly. There is no ```/home/workspace/``` folder
 * On **Ubuntu** usually it's at: ```/var/lib/docker/overlay2```. Then there are many folder. It's in there.
 * You can access it from with ```Docker terminal``` as: `/home/workspace/data/processed`
 
